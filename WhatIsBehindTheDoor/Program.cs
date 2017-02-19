@@ -12,7 +12,7 @@ namespace SecondClassHomeWork
 			Console.ReadLine();
 		}
 
-		public static void WhatIsBehindTheDoor()
+		public static void WhatIsBehindTheDoor() 
 		{
 			Console.WriteLine("What is behind door number: 1, 2, 3");
 			int input = Convert.ToInt32(Console.ReadLine());
