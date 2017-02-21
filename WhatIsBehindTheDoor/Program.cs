@@ -58,8 +58,8 @@ namespace SecondClassHomeWork
 			Console.WriteLine("Enter second number: ");
 			int number2 = Convert.ToInt32(Console.ReadLine());
 			
-			temp1 = number1;
-			temp2 = number2;
+			int temp1 = number1;
+			int temp2 = number2;
 
 			Console.WriteLine("The first number is: " + temp2);
 			Console.WriteLine("The second number is: " + temp1);
